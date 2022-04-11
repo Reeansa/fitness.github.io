@@ -19,13 +19,14 @@ header {
     transition: 0.5s;
     padding: 10px 50px;
     z-index: 1;
-    border-radius: 20px;
 }
 
-main div img {
+.banner {
     position: relative;
-    max-width: 100%;
-    
+    width: 100%;
+    height: 100vh;
+    background: url('../image/bg_andocs.png');
+    background-size: cover;
 }
 
 header.sticky {
