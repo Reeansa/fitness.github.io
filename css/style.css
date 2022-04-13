@@ -133,18 +133,6 @@ main div img {
     text-transform: capitalize;
 }
 
- /** #hText {
-    color: black;
-    font-size: 50px;
-    font-weight: 10px;
-    position: absolute;
-    left: 25%;
-    top: 50%;
-    text-align: justify;
-    transform: translate(-30%, -30%);
-    text-transform: uppercase;
-} **/
-
 /* FOOTER */
 
 footer {
