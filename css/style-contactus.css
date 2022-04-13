@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #212121;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  padding: 10px 50px;
+  z-index: 1;
+}
+
+nav {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  padding: 10px 50px;
+  z-index: 1;
+}
+
+header.sticky {
+  padding: 5px 10px;
+  background-color: white;
+}
+
+nav.sticky-nav ul li a {
+  color: black;
+}
+
+header .logo-fitness {
+  position: relative;
+  width: 110px;
+  left: 20px;
+  height: 100px;
+  float: left;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+}
+
+nav ul li a{
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: #407bff;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.2em;
+}
+
+nav li a:hover{
+    color: rgb(28, 121, 208);
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+#main-content {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-big{
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style untuk inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style untuk bagian container/contact  */
+  .container {
+    border-radius: 5px;
+    background-color: #0D7377;
+    padding: 10px;
+  }
+  
+  /* Buat dua kolom yang berfloat di samping satu sama lain */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Hapus floats setelah columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
