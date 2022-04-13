@@ -122,6 +122,17 @@ main div img {
 
 }
 
+.hText {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    left: 20%;
+    top: 72%;
+    transform: translate(-30%, -30%);
+    text-transform: capitalize;
+}
+
  /** #hText {
     color: black;
     font-size: 50px;
