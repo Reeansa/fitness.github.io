@@ -163,6 +163,7 @@ nav li a:hover{
   
   /* Style untuk bagian container/contact  */
   .container {
+    color: white;
     border-radius: 5px;
     background-color: #0D7377;
     padding: 10px;
@@ -170,6 +171,7 @@ nav li a:hover{
   
   /* Buat dua kolom yang berfloat di samping satu sama lain */
   .column {
+    color: white;
     float: left;
     width: 50%;
     margin-top: 6px;
