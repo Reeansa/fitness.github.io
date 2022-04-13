@@ -42,6 +42,11 @@ header.sticky {
   background-color: white;
 }
 
+nav.sticky-nav {
+  padding: 5px 10px;
+  background-color: white;
+}
+
 nav.sticky-nav ul li a {
   color: black;
 }
@@ -165,7 +170,7 @@ nav li a:hover{
   .container {
     color: white;
     border-radius: 5px;
-    background-color: #0D7377;
+    background-color: #323232;
     padding: 10px;
   }
   

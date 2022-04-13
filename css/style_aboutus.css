@@ -135,12 +135,31 @@ header {
   padding: 10px 50px;
   z-index: 1;
 }
+
+nav {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  padding: 10px 50px;
+  z-index: 1;
+}
+
 header.sticky {
   padding: 5px 10px;
   background-color: white;
 }
 
-header.sticky ul li a {
+nav.sticky-nav {
+  padding: 5px 10px;
+  background-color: white;
+}
+
+nav.sticky-nav ul li a {
   color: black;
 }
 
@@ -152,18 +171,18 @@ header .logo {
   float: left;
 }
 
-header nav ul {
+nav ul {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-header nav ul li {
+nav ul li {
   position: relative;
   list-style: none;
 }
 
-header nav ul li a{
+nav ul li a{
   position: relative;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -172,7 +191,7 @@ header nav ul li a{
   transition: 0.5s;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
   color: #407bff;
 }
 /**** Social Icons *****/
