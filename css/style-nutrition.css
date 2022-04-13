@@ -80,7 +80,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  color: #407bff;
+  color: #06c4ba;
 }
 
 .row {
@@ -213,5 +213,9 @@ footer .title {
 }
 
 .icon a:hover {
-  color: #0d7377;
+  color: #06c4ba;
+}
+
+.text1 a:hover {
+  color: #06c4ba;
 }

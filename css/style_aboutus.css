@@ -193,7 +193,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  color: #407bff;
+  color: #06c4ba;
 }
 /**** Social Icons *****/
 .social-icons {
@@ -383,6 +383,10 @@ footer .title {
   color: #fff;
 }
 
+.text1 a:hover {
+  color: #06c4ba;
+}
+
 .icon a {
   color: #fff;
   font-size: 24px;
@@ -391,5 +395,5 @@ footer .title {
 }
 
 .icon a:hover {
-  color: #0d7377;
+  color: #06c4ba;
 }
