@@ -314,10 +314,10 @@ nav ul li a:hover {
 
 #main-text {
   position: absolute;
-  left: 34%;
+  left: 40%;
   top: 60%;
   text-align: justify;
-  text-justify: inter-word;
+  width: 800px;
   color: white;
 }
 
